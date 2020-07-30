@@ -1,0 +1,111 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+$font__main: 'Lato', sans-serif !default;
+$font__title: 'Oswald', sans-serif !default;
+$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font__pre: "Courier 10 Pitch", Courier, monospace;
+$font__text-main-size: 1.0rem;
+$font__text-title-base-size: 1.6rem;
+$font__text-site-branding: 1.0rem;
+$font__line-height-body: 1.4;
+$font__line-height-pre: 1.6;
+$font__title-letter-spacing: -1.2px;
+
+$size__gutter: 1rem;
+$size__container-width: 1200px !default;
+$size__container-width-larger-than-mobile: 85% !default;
+$size__container-width-larger-than-phablet: 80% !default;
+$size__header-height: 60px;
+
+$grid__number-of-columns: 4 !default;
+$grid__column-width: 100% / $grid__number-of-columns !default; // calculates individual column width based off of # of columns
+$grid__column-margin: 4% !default; // space between columns
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  'extra-small': 25rem, //  400px - mobile
+  'small':       35rem, //  560px - phablet
+  'medium':      45rem, //  720px - tablet
+  'large':       60rem, //  960px - desktop
+  'extra-large': 75rem  // 1200px - desktophd
+) !default;
+
+$list: one two three four five six seven eight nine ten eleven twelve;
+$columns:(
+  1: one,
+  2: two,
+  3: three,
+  4: four,
+  5: five,
+  6: six,
+  7: seven,
+  8: eight,
+  9: nine,
+  10: ten,
+  11: eleven,
+  12: twelve);
+
+
+/// Colors
+$color__background-body: #fdfdfd;
+$color__background-header: rgba(255,255,255,0.9);
+$color__background-content: #ffffff;
+$color__background-footer: #ffffff;
+$color__background-article: #fefefe;
+$color__background-screen: #f1f1f1;
+$color__background-hr: #ccc;
+$color__background-form: #fdfdfd;
+$color__background-form-focus: #fff;
+$color__background-button: #cf0032;
+$color__background-button-hover: #e80038;
+$color__background-button-active: #cf0032;
+$color__background-button-disabled: #999999;
+$color__background-pre: #eee;
+$color__background-ins: #fff9c0;
+$color__background-code: #ffff00;
+$color__background-pre: #300a24;
+
+$color__text-screen: #21759b;
+$color__text-input: #666;
+$color__text-input-focus: #111;
+$color__link: #cf0032;
+$color__link-visited: #cf788d;
+$color__link-hover: #eb0039;
+$color__text-main: #424242;
+$color__text-title: #323232;
+
+$color__border-button: #ccc #ccc #bbb;
+$color__border-button-hover: #ccc #bbb #aaa;
+$color__border-button-focus: #aaa #bbb #bbb;
+$color__border-input: #ccc;
+$color__border-abbr: #666;
+
+$color__primary: #007BFF;
+$color__secondary: #868E96;
+$color__success: #28A745;
+$color__danger: #DC3545;
+$color__warning: #FFC107;
+$color__info: #17A2B8;
+$color__light: #F8F9FA;
+$color__dark: #343A40;
+$color__white: #FFFFFF;
+
+/// Borders
+$border__radius: 3px !default;
+
+$border__header: 1px solid #DDD;
+$border__button: none;
+$border__button-disabled: 1px solid #E3E3E3;
+
+$border__td: 1px solid #BBB;
+
+$border__form: 1px solid #d9d9d9;
+$border__form-focus: 1px solid #cf0032;
+$border__form-enter: 1px solid #cf0032;
+$border__form-enter-error: 1px solid #e74c3c;
+$border__form-enter-success: 1px solid #2ecc71;
+
+$border__code: 1px solid #aaaaaa;

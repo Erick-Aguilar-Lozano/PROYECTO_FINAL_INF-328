@@ -1,0 +1,46 @@
+/* = Forms
+ ------------------------------------------------------------- */
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+  width:100%;
+  color: $color__text-input;
+  background-color: $color__background-form;
+  padding: 0.25rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: $border__form;
+  border-radius: $border__radius;
+  font-size: 1rem;
+  color: black;
+  &:focus {
+    color: $color__text-input-focus;
+    background-color: $color__background-form-focus;
+    box-shadow: none;
+    border: $border__form-focus;
+    outline: none;
+  }
+  &:active {
+    background-color: $color__background-form-focus;
+  }
+}
+
+textarea {
+  height: 120px;
+}

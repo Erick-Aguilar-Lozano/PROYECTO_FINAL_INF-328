@@ -1,0 +1,126 @@
+/* = Extend
+ ------------------------------------------------------------- */
+#main{
+    @extend %container;
+    padding-left:150px;
+}
+#main-data{
+    @extend %row;
+}
+.solo-uno{
+    @extend %xs-four;
+    @extend %columns;
+}
+button:hover{
+    cursor: pointer;
+}
+#main-toolbar{
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px #d5d5d5 solid;
+    position: fixed;
+    padding-left: 260px;
+    z-index: 1;
+}
+#main-toolbar > ul{
+    list-style-type: none;
+}
+#breadcrumb{
+    padding: 5px;
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    border: 1px #d5d5d5 solid;
+}
+#panel-lateral{
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    width: 250px;
+    color: #555;
+    padding: 0;
+    border-right: 1px #d5d5d5 solid;
+    position: fixed;
+    height:100%;
+    z-index: 2;
+}
+#app-name{
+    text-align: center;
+}
+#app-icono>img{
+    border-radius: 50%;
+    width: 80%;
+    height:80%;
+    margin: 15px 10%;
+}
+#main{
+    //padding-left:260px;
+    padding-top: 50px;
+}
+#button-desplegable{
+    width:100%;
+    height: 50px;
+}
+#desplegable{
+    float: right;
+    top: 13px;
+    position: relative;
+}
+#desplegable:hover{
+    cursor: pointer;
+}
+#panel-lateral > .main-navbar{
+        
+}
+#panel-lateral > .main-navbar > #main-menu > ul ul,
+#panel-lateral > .main-navbar > #main-menu > ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+#main-menu{
+    width: 100%;
+}
+
+#main-menu > ul:first-child{
+    border-top-style: solid;
+    border-top-color: #ddd;
+    border-top-width: 1px;
+}
+
+.menu-item-container{
+    height: 50px;
+    border-bottom-style: solid;
+    border-bottom-color: #ddd;
+    border-bottom-width: 1px;
+}
+.menu-item > a:hover{
+    text-decoration: none;
+}
+.menu-item-label{
+    line-height: 50px;
+    margin-left: 10px;
+}
+.menu-item .mdi{
+    //float: right;
+}
+#main-menu > ul > li > ul > li{
+    background-color: #eee;
+}
+
+
+/**************************************/
+input.form-control{
+    font-size: 14px;
+    padding: 3px;
+}
+.table td, .table th {
+    padding: 5px;
+}
+.fila{
+    @extend %row;
+}
+.columna-unica{
+    @extend %xs-four;
+    @extend %columns;
+}

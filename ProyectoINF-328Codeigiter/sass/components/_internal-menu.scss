@@ -1,0 +1,35 @@
+/* = CSS Menu
+ ------------------------------------------------------------- */
+.internal-menu{
+  padding: 5px 10px 40px;
+  margin-left: $size__gutter / 4;
+  margin-right: $size__gutter / 4;
+  margin-bottom: 10px;
+}
+
+.internal-menu ul{
+  padding: 0;
+}
+.internal-menu li{
+  float: left;
+  list-style-type: none;
+}
+.internal-menu .active .icono24,
+.internal-menu .icono24:hover{
+  border-radius: 50%;
+  filter: invert(100%);
+}
+
+.internal-menu a{
+  text-transform: uppercase;
+  text-decoration: none;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+.internal-menu li a{
+  margin-left: 15px;
+}
+.internal-menu li .for-desktop{
+  margin-left: 5px;
+}

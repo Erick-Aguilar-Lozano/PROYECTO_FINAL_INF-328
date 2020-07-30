@@ -1,0 +1,36 @@
+/* = Pagination
+ ------------------------------------------------------------- */
+
+.pagination{
+position:relative;
+display: inline-block;
+line-height:13px
+}
+.pagination span,.pagination a{
+display:block;
+float:left;
+margin:5px 5px 5px 5px;
+padding:12px 14px;
+text-decoration:none;
+width:auto;
+color:$color__background-button;;
+//background:#555;
+border-radius: $border__radius;
+}
+.pagination a:hover{
+color:#fff;
+background:$color__background-button;
+transition: 1s;
+}
+.pagination .current{
+background:$color__background-button;
+color:#fff
+}
+.paging-navigation{
+margin:16px 10px;
+padding:1rem;
+text-align: center;
+}
+.screen-reader-text{
+display:none
+}

@@ -1,0 +1,48 @@
+/* = Typography
+ ------------------------------------------------------------- */
+
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+  color: $color__text-main;
+  font-family: $font__main;
+  font-size: $font__text-main-size;
+  font-weight: 400;
+  line-height: $font__line-height-body;
+}
+.text-primario{color: $color__primary;}
+.text-secondary{color: $color__secondary;}
+.text-success{color: $color__success;}
+.text-danger{color: $color__danger;}
+.text-warning{color: $color__warning;}
+.text-info{color: $color__info;}
+.text-light{color: $color__light;}
+.text-dark{color: $color__dark;}
+.text-white{color: $color__white;}
+p, article li{
+  font-family: $font__main;
+  font-size: $font__text-main-size;
+}
+h1, h2, h3, h4, h5, h6, .menu-item {
+  font-family: $font__title;
+  text-transform: uppercase;
+  clear:right;
+  color: $color__text-title;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+h1 { font-size: $font__text-title-base-size;}
+h2 { font-size: $font__text-title-base-size * 0.95;}
+h3 { font-size: $font__text-title-base-size * 0.90;}
+h4 { font-size: $font__text-title-base-size * 0.85;}
+h5 { font-size: $font__text-title-base-size * 0.85;}
+h6 { font-size: $font__text-title-base-size * 0.85;}
+
+p {
+  margin-top: 0;
+}
