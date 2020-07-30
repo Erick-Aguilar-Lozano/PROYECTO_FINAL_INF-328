@@ -7,7 +7,8 @@ INTEGRANTES:
 + Modo de utlizar el proyecto :
 + Caso Codeignaiter
 1. Copiar el proyecto al servidor web de su preferencia, en nuestro caso usamos XAMPP/httdocs.
-2. Cambiar la configuracion del archivo config.php la base url al puerto en el que corre su servidor web
-3. Modificar el archivo database.php, con los datos que utiliza para conectarse a su gestor de base de datos PostgresSql 
+2. Cambiar la configuracion del archivo config.php la base url al puerto en el que corre su servidor web.
+3. Modificar el archivo database.php, con los datos que utiliza para conectarse a su gestor de base de datos PostgresSql. 
+4. La base de datos utilizada en el caso de codeignaiter se encuentra dentro de Codeignaiter dentro una carpeta llamada database.
 ------------------------------------------------------------------------------------------------------------------
 Proyecto elaborado en Codeignaiter Y Spring Boot
